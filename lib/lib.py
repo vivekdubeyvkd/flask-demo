@@ -9,7 +9,7 @@ def load_json():
         return
 
 
-def returnBuildLabel(key):
+def returnInfo(key):
     _data = load_json()
     if _data:
         if key in _data:
