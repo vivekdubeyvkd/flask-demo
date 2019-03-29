@@ -14,7 +14,7 @@ def queryInfo():
 	
 @app.route('/getInfo',methods=['POST' , 'GET'])
 def getinfo():
-    _key = request.form['repo']
+    _key = request.form['person']
     return returnInfo(_key)
 	
 if __name__ == "__main__":
